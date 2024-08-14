@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{font-size: 4em;}
+h2{font-size: 2.5em;}
+h3{font-size: 1.5em;}
+p{font-size: 1.25em;}
+li{font-size: 1.2em;}
+ul{list-style: none;}
+
+button{
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: white;
+    background-color: darkmagenta;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(245, 245, 245);
+}
+header .logo{
+    margin: 0;  
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 2em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: rgb(101, 33, 165) ;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ) 
+    ,url("assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+#somos-proya .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 200px 12px;
+}
+.color-acento{
+    color: blueviolet;
+}
+#nuestros-programas{
+    text-align: center;
+    color: white;
+    background-color: rgb(30, 30, 30);
+}
+#nuestros-programas .container{
+    padding: 150px 12px;
+}
+#nuestros-programas p{
+    display: none;
+}
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: em;
+}
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 16px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, .5),
+    rgba(0, 0, 0, .5)
+) 
+,url("assets/front-end.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ) 
+    ,url("assets/full-stack.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ) 
+    ,url("assets/python.jpg");
+}
+#Caracteristicas .container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+#Caracteristicas li{
+    margin: 15px;
+    font-weight: bold;
+}
+#final{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+height: 95vh;
+color: white;
+background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, .5),
+    rgba(0, 0, 0, .5)
+) 
+,url("assets/e9aaa956329be14a90649479b4be6debfcbd2588_high.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+#final h2{
+    font-size: 9vw;
+}
+#final button{
+    font-size: 5vw;
+}
+footer{
+    background-color: rgb(230, 230, 230);
+}
+footer p{
+    margin: 0;
+    color:rgb(100, 100, 100) ;
+    padding: 12px;
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+@media (min-width: 720px) {
+    header{
+        position: fixed;
+        width: 100% ;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #somos-proya .container{
+        display: flex;
+        justify-content: center;
+    }
+    #hero h1{
+        font-size: 5em;
+    }
+    #somos-proya .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)
+        ), url(assets/somos-proya.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    #somos-proya h2{
+        margin-top: 0;
+    }
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+    #nuestros-programas h2{
+        font-size: 4em;
+    }
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+    #nuestros-programas .carta{
+        padding: 80px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(80, 80, 80, .5);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+    #nuestros-programas h3{
+        margin-top: 0;
+    }
+    .carta:first-child{
+        background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ) 
+    ,url("assets/front-end-cropped.jpg");
+    }
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)
+        ) 
+        ,url("assets/full-stack-cropped.jpg");
+    }
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)
+        ) 
+        ,url("assets/python-cropped.jpg");
+    }
+    #Caracteristicas{
+        background-image: url(assets/background-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 150px ;
+
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+    }
+    #Caracteristicas ul{
+        margin-left: 100px;
+    }
+    #final h2{
+        font-size: 5em;
+    }
+    #final button{
+        font-size: 2em;
+    }
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+@media (min-width:1200px){
+    #caracteristicas{
+        background-position-x:calc(100vw - 800px) ;
+    }
+}
