@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Bungee Tint", sans-serif;
+}
+.contenedor{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/1.jpg);
+    background-position:center center;
+    background-size:contain;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 5%;
+    width: 90%;
+    height: 90vh;
+    font-size: 3em;
+}
+.contenedor2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+     , url(/css/assets/imagen/10.webp);
+     width: 90%;
+     height: 90vh;
+     margin: 5%;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-position: center;
+     background-repeat: repeat;
+     background-size: contain;
+     font-size: 3em;
+}
+.contenedor3{ 
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/11.jpg);
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.contenedor4{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/12.webp);
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.contenedor5{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/13.jpg);
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-size: 3em;
+    background-position: center;
+    background-size: contain;
+}
+.contenedor6{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/14.webp);
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+}
+.contenedor7{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/15.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+}
+.contenedor7 p{
+    width: 300px;
+}
+.contenedor8,
+.contenedor9,
+.contenedor10,
+.contenedor11,
+.contenedor12,
+.contenedor13,
+.contenedor14,
+.contenedor15,
+.contenedor16,
+.contenedor17,
+.contenedor18,
+.contenedor19{
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor8{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/17.jpg);
+}
+.contenedor9{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/16.jpg);
+}
+.contenedor10{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/18.jpg);
+}
+.contenedor11{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+
+    )
+    ,url(/css/assets/imagen/19.jpg);
+}
+.contenedor12{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/2.jpg);
+}
+.contenedor13{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(/css/assets/imagen/20.jpg);
+}
+.contenedor14{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/21.jpg);
+}
+.contenedor15{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(/css/assets/imagen/22.jpg);
+
+}
+.contendor16{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(/css/assets/imagen/3.webp);
+
+}
+.contenedor17{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/imagen/4.webp);
+
+}
+.contenedor18{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0.5)
+    ) 
+    ,url(/css/assets/imagen/5.jpg);
+
+}
+.contenedor19{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(/css/assets/imagen/6.webp);
+}
