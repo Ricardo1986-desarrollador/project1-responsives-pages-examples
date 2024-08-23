@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgba(245, 245, 245, .2);
+    font-family: "Moderustic", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{font-size: 5em;}
+h2{font-size: 4em;}
+h3{font-size: 2.5em;}
+p{font-size: 1.2em;}
+li{
+    list-style: none;
+    font-size: 1.5em;
+}
+a{font-size: 1.2em;}
+
+.button{
+    background-color: blueviolet;
+    padding: 10px 30px;
+    color: hsl(0, 100%, 100%);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7em;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+}
+.button:hover{
+    font-size: 1.9em;
+    background-color: rgb(44, 9, 77);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(245, 245, 245);
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+}
+header p{
+    font-size: 2em;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 19px;
+}
+header p:hover{
+    color: rgb(44, 9, 77);
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+header a{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/imagen/3.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 98vh;
+    width: 100%;
+    color: hsl(0, 100%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+#hero h1:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+#quienes-somos .container{
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#quienes-somos h2{
+    padding-bottom:35px;
+}
+#quienes-somos span{
+    color: blueviolet;
+}
+#quienes-somos p{
+    width: 550px;
+}
+#quienes-somos{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/imagen/4.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: contain;
+    color: white;
+}
+#nuestros-programas{
+    background-color: rgba(0, 0, 0, .8);
+    color: hsl(0, 100%, 100%);
+    height: 98vh;
+}
+#nuestros-programas .programas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/front-end.jpg);
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/full-stack.jpg);
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/python.jpg);
+}
+#nuestros-programas .carta{
+    margin: 10px 15px;
+    border-radius: 20px;
+    height: 25vh;
+    max-width: 1000px;
+}
+#nuestros-programas p{
+    display: none;
+}
+#nuestros-programas h3{
+    margin-bottom: 70px;
+}
+#nuestros-programas h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#caracteristicas{
+    max-width: 1400px;
+    height: 98vh;
+}
+#caracteristicas .container{
+    text-align: center;
+    padding: 220px 0px;
+    margin:  0px auto;
+}
+#caracteristicas li{
+    margin: 12px 0px;
+    font-weight: bold;
+}
+#final{
+    width: 100%;
+}
+#final .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/6.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: contain;
+    color: hsl(0, 100%, 100%);
+}
+#final h2{
+    margin-bottom: 50px;
+}
+#redes-sociales{
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/imagen/6.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size:contain ;
+}
+#redes-sociales h2{
+    color: white;
+    text-align: center;
+    padding: 200px;
+}
+#redes-sociales p{
+    color: white;
+    margin: 0px auto;
+    width: 450px;
+}
+#instagram{
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/imagen/8.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size:contain ;
+}
+#instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#instagram p{
+    margin-bottom: 70px;
+}
+#facebook{
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/imagen/13.jpg);
+    background-position: center;
+    background-repeat: repaet;
+    background-size: contain;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#facebook p{
+    margin-bottom: 50px;
+}
+#x{
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/14.webp);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#x p{
+    margin-bottom: 50px;
+}
+footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

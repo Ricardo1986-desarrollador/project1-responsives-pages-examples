@@ -91,4 +91,102 @@ header a:hover{
     text-align: center;
     padding: 200px 12px;
 }
-#nuestros-programas
+#nuestros-programas .container{
+    background-color: #444;
+    width: 100%;
+    height: 100vh;
+}
+#nuestros-programas h2{
+    color: white;
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+#nuestros-programas .programas{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#nuestros-programas h3{
+    color: white;
+}
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+#nuestros-programas p{
+    display: none;
+}
+h3{
+    position: relative;
+    top: -30px;
+    width: 350px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/front-end.jpg);
+}
+.carta:nth-child(2){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(/css/assets/full-stack.jpg);
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(/css/assets/python.jpg);
+}
+#caracteristicas{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+#caracteristicas li{
+    margin: 15px 12px;
+    font-size: 1.5em;
+    text-align: left;
+    font-weight:bold ;
+}
+#final{
+    background-color: rgba(0, 0, 0, .9);
+    height: 90vh;
+}
+#final h2{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1em;
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
