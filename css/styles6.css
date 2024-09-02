@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #333;
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+h3{font-size: 1.3em;}
+p{font-size: 1.1em;}
+a{font-size: 1.4em;}
+li{list-style: none;}
+.button{
+    background-color: blueviolet;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, .5);
+    box-shadow: 10px 10px 10px rgba(5, 5, 5, .5);
+}
+.button:hover{
+    background-color: rgb(51, 8, 92);
+}
+header{
+    background-color: rgba(245, 245, 245, .9);
+}
+header p{
+    font-size: 1.9em;
+}
+header span{
+    color: blueviolet;
+    font-size: 2em;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+header a:hover{
+    color: blueviolet;
+}
+.container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+}
+#hero{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/8.webp);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}   
+#hero h1:hover{
+    color: red;
+    cursor: pointer;
+}
+#inicio{
+    background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+) 
+,url(assets/hero.jpg);
+height: 100vh;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+#inicio span{
+    color: blueviolet;
+}
+#inicio h2:hover{
+    color: red;
+    cursor: pointer;
+}
+#quienes-somos{
+    height: 100vh;
+}
+#quienes-somos h2{
+    color: blueviolet;
+}
