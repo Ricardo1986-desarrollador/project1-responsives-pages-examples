@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1{font-size: 3em;}
+h2{font-size: 2.9em;}
+h3{font-size: 2.1em;}
+p{font-size: 1em;}
+a{font-size: 1.1em;}
+ul{list-style: none;}
+li{font-size: 1.1em;}
+.button{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(44, 6, 80);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgba(245, 245, 245, .9);
+}
+header p{
+    margin: 0;
+    color: red;
+    font-size: 2.1em;
+    margin-bottom: 15px;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+}
+header a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/hero.jpg);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#inicio{
+    background-color: rgba(140, 140, 140, .8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#inicio .container{
+    width: 75vw;
+}
+#inicio .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.box:first-child{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/front-end.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+#inicio p{
+    display: none;
+}
+.box:nth-child(2){
+    background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+) 
+,url(assets/full-stack.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+border-radius: 15px;
+padding: 10px 10px;
+margin-bottom: 15px;
+}
+.box:nth-child(3){
+    background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+) 
+,url(assets/python.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+border-radius: 15px;
+padding: 10px 10px;
+margin-bottom: 15px;
+}
+#inicio .button:hover{
+    background-color: rgb(74, 16, 128);
+    color: red;
+}
+#inicio h3:hover{
+    color: red;
+}
+.box:nth-child(3):hover{
+    background-image: url(assets/imagen/14.webp);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.box:nth-child(2):hover{
+    background-image: url(assets/imagen/18.jpg);
+    background-size: 
+contain;
+background-repeat: 
+repeat;
+}
+.box:first-child:hover{
+    background-image: url(assets/imagen/11.jpg);
+    background-size: 
+contain;
+background-repeat: 
+repeat;
+}
+#quienes-somos{
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5))
+    ,url(assets/background-2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#redes-sociales{
+    background-color: rgba(140, 140, 140, .9);
+}
+#redes-sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+#redes-sociales .box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#redes-sociales h2:hover{
+    color: blueviolet;
+}
+#redes-sociales h3:hover{
+    font-size: 2.5em;
+    color: red;
+}
+.box-container:first-child{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/10.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 30vh;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .9);
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+.box-container:nth-child(2){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/13.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 30vh;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .9);
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+#redes-sociales p{
+    display: none;
+}
+#redes-sociales .container{
+    width: 75vw;
+}
+#serie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+#serie p{
+    display: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+@media (min-width:700px){
+    header{
+        background-color: black;
+        color: white;
+        position: fixed;
+        width: 100%;
+    }
+    header a{
+        color: white;
+        padding: 10px 15px;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header  .container{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+}
