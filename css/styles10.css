@@ -32,8 +32,11 @@ header p{
   margin: 0;
   color: blueviolet;
   font-size: 2.2em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   cursor: pointer;
+}
+header p:hover{
+  color: white;
 }
 header{
   display: flex;
@@ -159,7 +162,255 @@ width: 65vw;
   color: white;
   margin-bottom: 25px;
 }
+#quienes-somos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
+background-image:linear-gradient(
+  0deg,
+  rgba(0,0,0,.5),
+  rgba(0,0,0,.5)
+) 
+,url(assets/imagen/2.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+color: rgba(255, 255, 255, .9);
+cursor: pointer;
+}
+#quienes-somos h2:hover{
+  color: blueviolet;
+}
+#historia{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#historia p{
+  display: none;
+}
+#historia .box1{
+  width: 50vw;
+  height: 35vh;
+}
+.box1:first-child{
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+  ),url(assets/imagen/16.jpg );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid blueviolet;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+#historia h3:hover{
+  color: blueviolet;
+  margin-bottom: 25px;
+}
+.box1:nth-child(2){
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+  ),url(assets/imagen/14.webp );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid blueviolet;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+  cursor: pointer;
+}
+#historia h2:hover{
+  color: blueviolet ;
+}
+#hero2{
+  background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+  ) 
+  ,url(assets/imagen/7.jpg);
+  color: rgba(255, 255, 255, .9);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: calc(60vh);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer     ;
+}
+#hero2 h2:hover{
+  color: blueviolet;
+}
+#redes-sociales{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+#redes-sociales h2:hover{
+  color: blueviolet;
+}
+.box2{
+  width: 45vw;
+  height: 30vh;
+}
+.box2:first-child{
+  background-image: linear-gradient(0deg,
+  rgba(0,0,0,.5),
+  rgba(0,0,0,.5)) 
+  ,url(assets/imagen/6.webp);
+  background-position: center center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  border: 3px solid blueviolet;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+  margin-bottom: 25px;
+}
+.box2:nth-child(2){
+  background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+  ) 
+  ,url(assets/imagen/14.webp );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  border: 3px solid blueviolet;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.box2:nth-child(3){
+  background-image:linear-gradient(
+  0deg,
+  rgba(0,0,0,.5),
+  rgba(0,0,0,.5)
+) 
+,url(assets/imagen/14.webp );
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 15px;
+border: 3px solid blueviolet;
+box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
+}
+#hero3{
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,.9),
+    rgba(0,0,0,.9)
+  ) 
+  ,url(assets/imagen/19.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+}
+#hero3 h2:hover{
+  color: blueviolet;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+footer p{
+  color: blueviolet;
+}
+
+
+
+@media(min-width: 720px){
+  header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+  }
+  header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header nav{
+    flex-direction: row;
+    padding-right: 0px;
+  }
+  header a{ 
+    padding: 8px 80px;
+    color: black;
+    font-weight: bold;
+  }
+  header p{
+    margin-top: 11px;
+  }
+  #hero{
+    background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/11.jpg);
+    background-repeat: repeat;
+  }
+}
 
 
 
