@@ -347,8 +347,8 @@ margin-bottom: 25px;
 #hero3{
   background-image: linear-gradient(
     0deg,
-    rgba(0,0,0,.9),
-    rgba(0,0,0,.9)
+    rgba(0,0,0,.2),
+    rgba(0,0,0,.2)
   ) 
   ,url(assets/imagen/19.jpg);
   background-position: center center;
@@ -410,6 +410,125 @@ footer p{
     ,url(assets/imagen/11.jpg);
     background-repeat: repeat;
   }
+  #inicio p{
+    display: block;
+  }
+  #inicio .box-container{
+    display: flex;
+    flex-direction: row;
+  }
+  #inicio .box{
+    width: 27vw;
+    height: 55vh;
+    margin: 10px 15px;
+  }
+  .box:first-child:hover{
+    background-image: url(assets/imagen/2.jpg);
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box:nth-child(2):hover{
+    background-image: url(assets/imagen/5.jpg);
+  }
+  .box:nth-child(3):hover{
+    background-image: url(assets/imagen/4.webp);
+  }
+  #quienes-somos .img-container{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0.5)
+    )
+    ,url(assets/imagen/7.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;margin-left: auto;
+    padding-left: 30px;
+    margin-left: 30px;
+  }
+  #quienes-somos .container{
+    display: flex;
+    text-align:left;
+  }
+  #quienes-somos h2, p{
+    padding: 0px 30px;
+  }
+  #historia .box-container{
+    display: flex;
+    flex-direction: row;
+  }
+  #historia .box1{
+    margin: 12px 25px;
+    width: 39vw;
+    height: 45vh;
+  }
+  .box1:first-child:hover{
+    background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/17.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box1:nth-child(2):hover{
+    background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/18.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #hero2{
+    background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+    ) 
+    ,url(assets/imagen/18.jpg);
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #redes-sociales .container2{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  #redes-sociales .box2{
+    width: 28vw;
+    height: 45vh;
+    margin: 100px 25px;
+  }
+  #redes-sociales h4{
+    color: white;
+  }
+  #redes-sociales h4:hover{
+    color: blueviolet;
+  }
+.box2:first-child:hover{
+  background-image: url(assets/imagen/10.webp);
+}
+.box2:nth-child(2):hover{
+  background-image: url(assets/imagen/11.jpg);
+}
+.box2:nth-child(3):hover{
+  background-image: url(assets/imagen/12.webp);
+}
 }
 
 
